@@ -1,0 +1,2 @@
+# elixir_opencv_example
+mylab_laptop_sz5
