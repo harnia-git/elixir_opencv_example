@@ -1,12 +1,21 @@
-# elixir_opencv_example
-mylab_laptop_sz5
+# ElixirOpencvExample
 
-sudo apt update　　
-sudo apt install -y elixir　　
+**TODO: Add description**
 
-mix new elixir_opencv_example　　
-cd elixir_opencv_example　　
+## Installation
 
-iex -S mix　　
+If [available in Hex](https://hex.pm/docs/publish), the package can be installed
+by adding `elixir_opencv_example` to your list of dependencies in `mix.exs`:
 
-ElixirOpencvExample.convert_to_grayscale("path/to/your/input.jpg", "path/to/your/output.jpg")　　
+```elixir
+def deps do
+  [
+    {:elixir_opencv_example, "~> 0.1.0"}
+  ]
+end
+```
+
+Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
+and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
+be found at [https://hexdocs.pm/elixir_opencv_example](https://hexdocs.pm/elixir_opencv_example).
+
